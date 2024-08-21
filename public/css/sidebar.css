@@ -1,0 +1,52 @@
+.sidebar {
+   flex: 3;
+   padding: 0 20px;
+}
+
+.sidebar .area {
+   padding: 10px;
+   border: 10px solid  rgba(20, 84, 145, 0.2);
+   border-radius: 10px;
+   margin-bottom: 30px;
+}
+
+.sidebar h3 {
+   width: 100%;
+   margin-bottom: 10px;
+   font-family: 'Pacifico', cursive;
+   display: flex;
+   justify-content: center;
+   position: relative;
+}
+
+.sidebar h3::after {
+   content: '';
+   width: 50%;
+   height: 2px;
+   background-color: black;
+   position: absolute;
+   bottom: 0;
+}
+
+
+.sidebar a {
+   font-family: 'Josefin Sans', sans-serif;
+   display: block;
+   padding: 3px;
+   margin-bottom: 5px;
+   background-color: rgba(0, 0, 0, 0.03);
+}
+.sidebar a:nth-child(2n + 1) {
+   background-color: rgba(0, 0, 0, 0.08);
+}
+
+
+/* Scroll animation */
+
+.sidebar .area {
+   opacity: 0;
+   transition: all 0.5s;
+}
+.sidebar .area.active {
+   opacity: 1;
+}

@@ -1,0 +1,622 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Topkapı Sarayı",
+        "type": "Saray",
+        "description": "Osmanlı İmparatorluğu'nun ana sarayı ve yönetim merkezi.",
+        "visit_days": "(Her gün açık, Salı hariç.)",
+        "museum_card": "Müze kart geçerli.",
+        "rating": "⭐️⭐️⭐️⭐️⭐️(4.7)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.9848225, 41.0128904]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ayasofya Camii",
+        "type": "Cami",
+        "description": "Bizans döneminden kalma, kilise ve cami olarak kullanılmış tarihi yapı.",
+        "visit_days": "(Her gün açık.)",
+        "museum_card": "Ücretsiz.",
+        "rating": "⭐️⭐️⭐️⭐️⭐️(4.8)"
+        
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.9794258, 41.0088223]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sultanahmet Camii",
+        "type": "Cami",
+        "description": "1609-1616 yılları arasında inşa edilmiş, muhteşem mavi çinileri ile ünlü cami.",
+        "visit_days": "(Her gün açık.)",
+        "museum_card": "Ücretsiz.",
+        "rating": "⭐️⭐️⭐️⭐️⭐️(4.7)"
+        
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.9768, 41.0054]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dolmabahçe Sarayı",
+        "type": "Saray",
+        "description": "Osmanlı İmparatorluğu'nun son dönemlerinde inşa edilen, Boğaz kıyısındaki saray.",
+        "visit_days": "(Pazartesi ve Perşembe hariç her gün açık.)",
+        "museum_card": "Müze kart geçerli.",
+        "rating": "⭐️⭐️⭐️⭐️⭐️(4.8)"
+       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.9992522, 41.0389103]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kariye Müzesi",
+        "type": "Müze",
+        "description": "Bizans dönemi fresk ve mozaikleri ile ünlü, eski bir kilise.",
+        "visit_days": "(Pazartesi hariç her gün açık.)",
+        "museum_card": "Müze kart geçerli.",
+        "rating": "⭐️⭐️⭐️⭐️(4.4)"
+        
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.9390, 41.0313]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Süleymaniye Camii",
+        "type": "Cami",
+        "description": "Mimar Sinan'ın eseri olan, İstanbul'un en büyük ve ihtişamlı camilerinden biri.",
+        "visit_days": "(Her gün açık.)",
+        "museum_card": "Ücretsiz.",
+        "rating": "⭐️⭐️⭐️⭐️⭐️(4.9)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.9636, 41.0164]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Çırağan Sarayı",
+        "type": "Saray",
+        "description": "Boğaz kıyısında yer alan, lüks otel olarak da kullanılan tarihi saray.",
+        "visit_days": "(Her gün açık.)",
+        "museum_card": "Müze kart geçerli değil.",
+        "rating": "⭐️⭐️⭐️⭐️⭐️(4.7)"
+       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [29.0152329, 41.0436694]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "İstanbul Arkeoloji Müzeleri",
+        "type": "Müze",
+        "description": "Dünyanın dört bir yanından arkeolojik eserlerin sergilendiği müze kompleksi.",
+        "visit_days": "(Pazartesi hariç her gün açık.)",
+        "museum_card": "Müze kart geçerli.",
+        "rating": "⭐️⭐️⭐️⭐️⭐️(4.6)"
+        
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.9820, 41.0082]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Beylerbeyi Sarayı",
+        "type": "Saray",
+        "description": "Boğaz'ın Asya kıyısında yer alan, 19. yüzyıl Osmanlı sarayı.",
+        "visit_days": "(Pazartesi ve Perşembe hariç her gün açık.)",
+        "museum_card": "Müze kart geçerli.",
+        "rating": "⭐️⭐️⭐️⭐️⭐️(4.7)"
+       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [29.0401466, 41.0425499]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fatih Camii",
+        "type": "Cami",
+        "description": "Fatih Sultan Mehmet tarafından yaptırılan, İstanbul'un önemli camilerinden biri.",
+        "visit_days": "(Her gün açık.)",
+        "museum_card": "Ücretsiz.",
+        "rating": "⭐️⭐️⭐️⭐️⭐️(4.8)"
+        
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.9483, 41.0190]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mihrimah Sultan Camii",
+        "type": "Cami",
+        "description": "Kanuni Sultan Süleyman'ın kızı Mihrimah Sultan için yaptırılmış, ünlü cami.",
+        "visit_days": "(Her gün açık.)",
+        "museum_card": "Ücretsiz.",
+        "rating": "⭐️⭐️⭐️⭐️⭐️(4.8)"
+       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.9379, 41.0280]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "İstanbul Modern Sanat Müzesi",
+        "type": "Müze",
+        "description": "Modern ve çağdaş sanat eserlerinin sergilendiği müze.",
+        "visit_days": "(Pazartesi hariç her gün açık.)",
+        "museum_card": "Müze kart geçerli değil.",
+        "rating": "⭐️⭐️⭐️⭐️(4.4)"
+        
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.9837, 41.0294]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rumeli Hisarı",
+        "type": "Hisar",
+        "description": "Boğaz'ın en dar noktasında yer alan, Fatih Sultan Mehmet tarafından yaptırılmış hisar.",
+        "visit_days": "(Çarşamba hariç her gün açık.)",
+        "museum_card": "Müze kart geçerli.",
+        "rating": "⭐️⭐️⭐️⭐️(4.5)"
+        
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [29.0533, 41.0843]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Anadolu Hisarı",
+        "type": "Hisar",
+        "description": "Yıldırım Bayezid tarafından 1395 yılında yaptırılan, Boğaz'ın en dar noktasındaki hisar.",
+        "visit_days": "(Her gün açık.)",
+        "museum_card": "Müze kart geçerli.",
+        "rating": "⭐️⭐️⭐️⭐️(4.5)"
+        
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [29.0656, 41.0423]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Galata Kulesi",
+        "type": "Kule",
+        "description": "Bizans İmparatoru Justinianos tarafından 528 yılında inşa edilmiş tarihi kule.",
+        "visit_days": "(Her gün açık.)",
+        "museum_card": "Müze kart geçerli.",
+        "rating": "⭐️⭐️⭐️⭐️⭐️(4.7)"
+        
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.9743, 41.0256]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Yedikule Hisarı",
+        "type": "Hisar",
+        "description": "Bizans ve Osmanlı dönemlerinde önemli bir savunma ve gözlem noktası olarak kullanılan hisar.",
+        "visit_days": "(Her gün açık.)",
+        "museum_card": "Müze kart geçerli.",
+        "rating": "⭐️⭐️⭐️⭐️(4.4)"
+        
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.9238, 40.9980]
+      }
+    },
+    {
+      "type": "Feature",
+        "properties": {
+        "name": "Kız Kulesi",
+        "type": "Kule",
+        "description": "İstanbul Boğazı'nda Salacak açıklarında yer alan ve tarihi antik çağlara kadar uzanan kule.",
+        "visit_days": "(Her gün açık.)",
+        "museum_card": "Müze kart geçerli değil.",
+        "rating": "⭐️⭐️⭐️⭐️⭐️(4.7)"
+        
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [29.0186, 41.0211]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gülhane Parkı",
+        "type": "Park",
+        "description": "Tarihi yarımadada bulunan, İstanbul'un en eski ve büyük parklarından biri.",
+        "visit_days": "(Her gün açık.)",
+        "museum_card": "Ücretsiz.",
+        "rating": "⭐️⭐️⭐️⭐️⭐️(4.7)"
+       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.9795, 41.0122]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Emirgan Korusu",
+        "type": "Park",
+        "description": "Boğaz'ın Avrupa yakasında yer alan, lale festivali ile ünlü büyük bir park.",
+        "visit_days": "(Her gün açık.)",
+        "museum_card": "Ücretsiz.",
+        "rating": "⭐️⭐️⭐️⭐️⭐️(4.6)"
+        
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [29.0415, 41.1050]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Yıldız Parkı",
+        "type": "Park",
+        "description": "Beşiktaş ve Ortaköy arasında yer alan, geniş yeşil alanları ve tarihi köşkleri ile ünlü bir park.",
+        "visit_days": "(Her gün açık.)",
+        "museum_card": "Ücretsiz.",
+        "rating": "⭐️⭐️⭐️⭐️⭐️(4.7)"
+      
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [29.0130, 41.0430]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Belgrad Ormanı",
+        "type": "Park",
+        "description": "İstanbul'un kuzeyinde yer alan, yürüyüş ve piknik alanları ile ünlü büyük bir orman.",
+        "visit_days": "(Her gün açık.)",
+        "museum_card": "Ücretsiz.",
+        "rating": "⭐️⭐️⭐️⭐️(4.5)"
+      
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.9330, 41.2033]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Maçka Demokrasi Parkı",
+        "type": "Park",
+        "description": "Şişli'de yer alan, yürüyüş yolları ve geniş çim alanları ile bilinen bir park.",
+        "visit_days": "(Her gün açık.)",
+        "museum_card": "Ücretsiz.",
+        "rating": "⭐️⭐️⭐️⭐️⭐️(4.6)"
+        
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.9946, 41.0439]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Şehzade Camii",
+        "type": "Cami",
+        "description": "Kanuni Sultan Süleyman'ın oğlu Şehzade Mehmet için yaptırdığı cami.",
+        "visit_days": "(Her gün açık.)",
+        "museum_card": "Ücretsiz.",
+        "rating": "⭐️⭐️⭐️⭐️(4.5)"
+       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.9603, 41.0134]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rahmi M. Koç Müzesi",
+        "type": "Müze",
+        "description": "Sanayi, ulaşım ve iletişim tarihine odaklanmış interaktif bir müze.",
+        "visit_days": "(Pazartesi hariç her gün açık.)",
+        "museum_card": "Müze kart geçerli.",
+        "rating": "⭐️⭐️⭐️⭐️⭐️(4.8)"
+       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.948070, 41.046702]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Aya İrini",
+        "type": "Kilise",
+        "description": "Bizans döneminden kalma, İstanbul'un en eski kiliselerinden biri.",
+        "visit_days": "(Her gün açık.)",
+        "museum_card": "Müze kart geçerli.",
+        "rating": "⭐️⭐️⭐️⭐️(4.2)"
+        
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.981572, 41.009652]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "St. Antoine Katolik Kilisesi",
+        "type": "Kilise",
+        "description": "İstanbul'un en büyük ve en önemli Katolik kilisesi.",
+        "visit_days": "(Her gün açık.)",
+        "museum_card": "Ücretsiz.",
+        "rating": "Puanlanmamış."
+       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.974364, 41.033451]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Yerebatan Sarnıcı",
+        "type": "Sarnıç",
+        "description": "Bizans döneminden kalma, İstanbul'un en büyük kapalı sarnıçlarından biri.",
+        "visit_days": "(Her gün açık.)",
+        "museum_card": "Müze kart geçerli.",
+        "rating": "⭐️⭐️⭐️⭐️⭐️(4.6)"
+        
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.976018, 41.008586]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Binbirdirek Sarnıcı",
+        "type": "Sarnıç",
+        "description": "4. yüzyıldan kalma, İstanbul'un ikinci büyük sarnıcı.",
+        "visit_days": "(Her gün açık.)",
+        "museum_card": "Müze kart geçerli.",
+        "rating": "Puanlanmamış."
+        
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.975712, 41.007834]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Şerefiye Sarnıcı",
+        "type": "Sarnıç",
+        "description": "6. yüzyıldan kalma, İstanbul'un önemli sarnıçlarından biri.",
+        "visit_days": "(Her gün açık.)",
+        "museum_card": "Müze kart geçerli.",
+        "rating": "⭐️⭐️⭐️⭐️(4.5)"
+       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.969965, 41.009464]
+      }
+    },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "Yıldız Sarayı",
+            "type": "Saray",
+            "description": "Osmanlı İmparatorluğu'nun son dönemlerinde kullanılan, geniş bahçeleri ve köşkleri ile ünlü saray.",
+            "visit_days": "(Pazartesi hariç her gün açık.)",
+            "museum_card": "Müze kart geçerli.",
+            "rating":"Puanlanmamış."
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [29.0171, 41.0496]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "Sakıp Sabancı Müzesi",
+            "type": "Müze",
+            "description": "Modern sanat ve kültürel sergilere ev sahipliği yapan müze.",
+            "visit_days": "(Pazartesi hariç her gün açık.)",
+            "museum_card": "Müze kart geçerli.",
+            "rating": "⭐️⭐️⭐️⭐️⭐️(4.7)"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [29.0444, 41.1070]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "Çamlıca Kulesi",
+            "type": "Kule",
+            "description": "İstanbul'un en yüksek yapılarından biri olan televizyon ve radyo kulesi.",
+            "visit_days": "(Her gün açık.)",
+            "museum_card": "Müze kart geçerli değil.",
+            "rating": "⭐️⭐️⭐️(3.5)"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [29.0705, 41.0126]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "Yeni Camii",
+            "type": "Cami",
+            "description": "Eminönü'nde bulunan, 17. yüzyılda inşa edilen tarihi cami.",
+            "visit_days": "(Her gün açık.)",
+            "museum_card": "Ücretsiz.",
+            "rating": "⭐️⭐️⭐️⭐️⭐️(4.7)"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [28.9733, 41.0178]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "Aziz Stefan Bulgar Kilisesi",
+            "type": "Kilise",
+            "description": "İstanbul'un Balat semtinde yer alan, demirden inşa edilmiş kilise.",
+            "visit_days": "(Her gün açık.)",
+            "museum_card": "Müze kart geçerli.",
+            "rating":"Puanlanmamış."
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [28.9494, 41.0283]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "Göztepe 60. Yıl Parkı",
+            "type": "Park",
+            "description": "Kadıköy'de yer alan, yürüyüş ve piknik alanları ile bilinen büyük bir park.",
+            "visit_days": "(Her gün açık.)",
+            "museum_card": "Ücretsiz.",
+            "rating": "⭐️⭐️⭐️⭐️(4.5)"
+            
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [29.0515, 40.9766]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "Hagia Triada Rum Ortodoks Kilisesi",
+            "type": "Kilise",
+            "description": "İstanbul'un Taksim meydanında yer alan, Rum Ortodoks kilisesi.",
+            "visit_days": "(Her gün açık.)",
+            "museum_card": "Ücretsiz.",
+            "rating": "⭐️⭐️⭐️⭐️(4.5)"
+            
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [28.9848, 41.0369]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "Santral İstanbul",
+            "type": "Müze",
+            "description": "Enerji müzesi ve kültür merkezi olarak hizmet veren eski elektrik santrali.",
+            "visit_days": "(Pazartesi hariç her gün açık.)",
+            "museum_card": "Müze kart geçerli.",
+            "rating":"Puanlanmamış."
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [28.9485, 41.0654]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "Aya Yorgi Kilisesi ve Manastırı",
+            "type": "Kilise",
+            "description": "Büyükada'da yer alan, önemli bir Hristiyan hac noktası.",
+            "visit_days": "(Her gün açık.)",
+            "museum_card": "Müze kart geçerli değil.",
+            "rating": "⭐️⭐️⭐️⭐️(4.5)"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [29.1190439, 40.8487435]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "Fethiye Müzesi",
+            "type": "Müze",
+            "description": "Eski Pammakaristos Manastırı'nın kilisesi olan ve bugün müze olarak kullanılan yapı.",
+            "visit_days": "(Pazartesi hariç her gün açık.)",
+            "museum_card": "Müze kart geçerli.",
+            "rating":"Puanlanmamış."
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [28.9478, 41.0314]
+          }
+        }
+      ]
+    }
+  
+
+

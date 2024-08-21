@@ -1,0 +1,332 @@
+/* Yerleri Fİltrele */
+ .filter-container {
+   position: absolute;
+   bottom: 590px;
+   right: 40px;
+   background: rgb(221, 239, 242);
+   padding: 10px;
+   border-radius: 6px;
+   border: 20px;
+   box-shadow: 0 1px 2px rgba(202, 10, 10, 0.1);
+   font-family: "Josefin Sans", sans-serif;
+   border: 10px solid rgba(20, 84, 145, 0.2);
+ }
+/* Seçenekleri göster */
+ .filter-container2 {
+  position: absolute;
+  margin-top: 45px;
+  margin-left: 20px;
+  top: 10px;
+  left: 10px;
+  background: rgb(221, 239, 242);
+  padding: 10px;
+  border-radius: 6px;
+  box-shadow: 0 1px 2px rgba(202, 10, 10, 0.1);
+  border: 10px solid rgba(20, 84, 145, 0.2);
+  font-family: "Josefin Sans", sans-serif;
+}
+ .filter-select {
+   width: 200px;
+   font-family: "Josefin Sans", sans-serif;
+ }
+ .filter-select2 {
+  width: 200px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+/* Rota Planla */
+ .container {
+  position: absolute;
+  margin-top: 110px;
+  margin-left: 20px;
+  top: 10px;
+  left: 10px;
+  background: rgb(221, 239, 242);
+  padding: 10px;
+  border-radius: 6px;
+  border: 20px;
+  box-shadow: 0 1px 2px rgba(202, 10, 10, 0.1);
+  font-family: "Josefin Sans", sans-serif;
+  border: 10px solid rgba(20, 84, 145, 0.2);
+  height: 570px;
+  width: 600px;
+}
+.well {
+  background-color: #d6e3f2;
+  border: 1px solid #e3e3e3;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  height: 500px;
+  width: 560px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-control {
+  border-radius: 10px;
+  box-shadow: none;
+  border: 1px solid #ced4da;
+  padding: 10px;
+  font-size: 12px;
+}
+
+.input-group .form-control {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.input-group-btn .btn {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-color: #cdd4db;
+  color: #d94242;
+}
+
+.radio-inline {
+  margin-right: 10px;
+}
+
+.btn-primary {
+  background-color: #e1e6eb;
+  border-color: #0270e5;
+  font-size: 25px;
+  font-family: "Josefin Sans", sans-serif;
+  border-radius: 10px;
+  border: 30px;
+  color: #060606;
+}
+
+.btn-primary:hover {
+  background-color: #ecf2f9;
+  border-color: #dfe1e4;
+  font-size: 35px;
+  border-radius: 10px;
+}
+
+#rota-container {
+  display: none; /* Başlangıçta gizli */
+}
+
+
+.page-header h2{
+  font-family: "Roboto Mono", monospace;
+}
+
+ #map-container {
+  position: relative;
+}
+
+#legend {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background: rgb(221, 239, 242);
+  padding: 10px;
+  border-radius: 5px;
+  border: 10px;
+  box-shadow: 10 10 10px rgba(0, 0, 0, 0.2);
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 17px;
+  border: 10px solid rgba(20, 84, 145, 0.2);
+ 
+}
+
+#legend h4 {
+  margin: 0 0 10px 0;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+#legend div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.legend-icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+
+/* Listem */
+.border {
+  position: absolute;
+  margin-top: 115px;
+  margin-left: 20px;
+  top: 10px;
+  left: 10px;
+  background: rgb(221, 239, 242);
+  padding: 10px;
+  border-radius: 6px;
+  border: 20px;
+  box-shadow: 0 1px 2px rgba(202, 10, 10, 0.1);
+  
+  border: 10px solid rgba(20, 84, 145, 0.2);
+  height: 570px;
+  width: 600px;
+  font-size: 1.5rem;
+  font-family: "Roboto Mono", monospace;
+}
+
+form {
+  min-height: 20vh;
+  display: 1; 
+  justify-content: center;
+  align-items: center;
+}
+
+form input, 
+form button {
+  padding: 0.5rem;
+  padding-left: 1rem;
+  font-size: 1.4rem;
+  border: none;
+  background: white;
+  border-radius: 2rem;
+}
+
+form button {
+  color: rgb(90, 83, 217);
+  background: white;
+  cursor: pointer;
+  transition: all 0.3 ease;
+  margin-left: 0.5rem;
+}
+
+form button:hover {
+  color: white;
+  background: rgb(24, 81, 29);
+}
+
+.fa-calendar-plus {
+  margin-top: 0.3rem;
+  margin-left: -8px;
+}
+
+.todo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo-list {
+  min-width: 30%;
+  list-style: none;
+}
+
+.todo {
+  margin: 0.5rem;
+  padding-left: 0.5rem;
+  background: white;
+  color: black;
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.5s;
+  border-radius: 2rem;
+}
+
+.todo li {
+  flex: 1;
+}
+
+.trash-btn, 
+.complete-btn {
+  color: white;
+  border: none;
+  padding: 1rem;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+.complete-btn {
+  background: rgb(98, 163, 38);
+}
+
+.trash-btn {
+  border-top-right-radius: 1.75rem;
+  border-bottom-right-radius: 1.75rem;
+  background: rgb(206, 79, 79);
+}
+
+.todo-item {
+  padding: 0rem 0.5rem;
+}
+
+.fa-trash, 
+.fa-calendar-plus {
+  pointer-events: none;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+.slide {
+  transform: translateX(10rem);
+  opacity: 0;
+}
+
+.selectt {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+  border: none;
+}
+
+.selectt {
+  margin: 1rem;
+  position: absolute;
+  
+  border-radius: 10px;
+}
+
+/*.selectt {
+  color:rgb(255, 200, 0);
+  width: 10rem;
+  height: 3.2rem;
+  cursor: pointer;
+  padding: 1rem;
+} */
+
+
+/*.selectt::after {
+  content: "\25BC";
+  position: absolute;
+  background:rgb(255, 200, 0);
+  top: 0;
+  right: 0;
+  padding: 1rem;
+  pointer-events: none;
+  transition: all 0.3s ease;
+} */
+
+.selectt::hover::after {
+  background: white;
+  color: rgb(255, 200, 0);
+}
+
+#liste-container{
+  display: none;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #333;
+}
+
+.close-btn i {
+    font-size: 20px;
+}

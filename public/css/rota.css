@@ -1,0 +1,94 @@
+.rota {
+    padding: 0px 20px;
+ }
+ 
+ .rota .wrapper {
+    width: 100%;
+    max-width: 1366px;
+    margin: 15px auto;
+    padding: 10px;
+    border: 10px solid rgba(20, 84, 145, 0.2);
+    border-radius: 20px;
+    display: flex;
+ }
+ .rota .wrapper:nth-child(2n) {
+    flex-direction: row-reverse;
+ }
+ 
+ .rota .wrapper .text {
+    flex: 1.5;
+    padding: 1px;
+ }
+
+
+ 
+ .rota .wrapper .text h1 {
+   font-family: "Roboto Condensed", sans-serif;
+   text-align: center;
+   margin-top: 30px;
+   color: rgb(13, 9, 113);
+   
+ }
+ .rota .wrapper .text p {
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 10px;
+    font-size: 1.5rem;
+    line-height: 30px;
+    margin-top: 20px;
+    text-align: center;
+    
+ }
+ .rota .wrapper .text a{
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 50px;
+    font-size: 1.5rem;
+    color: rgb(68, 66, 176);
+    text-align: center;
+    margin-right: 80px;
+
+ }
+
+ 
+ 
+ .rota .wrapper .photo {
+    flex: 2;
+    overflow: hidden;
+    border-radius: 10px;
+ }
+ .rota .wrapper .photo img{
+    border-radius: 10px;
+    /*cursor: pointer; */
+   
+ }
+ 
+ 
+ 
+ /* Scroll animation */
+ .rota .wrapper {
+    opacity: 0;
+    transition: all 0.5s;
+ }
+ .rota .wrapper.active {
+    opacity: 1;
+ }
+ .rota .wrapper .text {
+    transform: translateX(-20px);
+    transition: all 0.5s;
+ }
+ .rota .wrapper:nth-child(2n) .text {
+    transform: translateX(20px);
+ }
+ .rota .wrapper.active .text {
+    transform: translateX(0px);
+ }
+ 
+ .rota .wrapper .photo {
+    transform: translateX(20px);
+    transition: all 0.5s;
+ }
+ .rota .wrapper:nth-child(2n) .photo {
+    transform: translateX(-20px);
+ }
+ .rota .wrapper.active .photo {
+    transform: translateX(0px);
+ }

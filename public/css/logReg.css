@@ -1,0 +1,132 @@
+.head{
+	position: absolute;
+	top: 200px;
+	left: 550px;
+	z-index: 2;
+}
+
+.head div{
+	float: left;
+	color: #1e0d0d;
+	font-family: "Roboto Mono", monospace;
+	font-size: 60px;
+	font-weight: 200;
+}
+
+.head div span{
+	color: #5379fa ;
+}
+
+.grad{
+	position: absolute;
+	top: -20px;
+	left: -20px;
+	right: -40px;
+	bottom: -40px;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	opacity: 10;
+}
+
+
+.login{
+	position: absolute;
+	top: 250px;
+	left: 550px;
+	height: 150px;
+	width: 330px;
+	padding: 10px;
+	z-index: 2;
+}
+
+.login input[type=email]{
+	width: 250px;
+	height: 30px;
+	background: transparent;
+	border: 1px solid rgba(87, 118, 185, 0.6);
+	border-radius: 5px;
+	color: #000000;
+	font-family: "Kanit", sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 5px;
+}
+
+.login input[type=text]{
+	width: 250px;
+	height: 30px;
+	background: transparent;
+	border: 1px solid rgba(87, 118, 185, 0.6);
+	border-radius: 5px;
+	color: #000000;
+	font-family: "Kanit", sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 5px;
+	margin-top: 10px;
+}
+
+.login input[type=password]{
+	width: 250px;
+	height: 30px;
+	background: transparent;
+	border: 1px solid rgba(87, 118, 185, 0.6);
+	border-radius: 5px;
+	color: #000000;
+	font-family: "Kanit", sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 5px;
+	margin-top: 10px;
+}
+
+.login input[type=button]{
+	width: 250px;
+	height: 50px;
+	background: #3b7bd4;
+	border: 3px solid #fff;
+	cursor: pointer;
+	border-radius: 5px;
+	color: #dedbd5;
+    font-family: "Kanit", sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 10px;
+	margin-top: 10px;
+}
+
+.login input[type=button]:hover{
+	opacity: 0.8;
+}
+
+.login input[type=button]:active{
+	opacity: 0.6;
+}
+
+.login input[type=text]:focus{
+	outline: none;
+	border: 1px solid rgba(255,255,255,0.9);
+}
+
+.login input[type=password]:focus{
+	outline: none;
+	border: 1px solid rgba(255,255,255,0.9);
+}
+
+.login input[type=button]:focus{
+	outline: none;
+}
+
+::-webkit-input-placeholder{
+   color: rgba(106, 101, 101, 0.6);
+}
+
+::-moz-input-placeholder{
+   color: rgba(137, 124, 124, 0.6);
+}
+
+.error {
+	color: red;
+	margin-top: 10px;
+}

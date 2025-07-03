@@ -1,6 +1,6 @@
-# IstanbulGeziPlanim 🌍
+# Istanbul Gezi Planim 🌍
 
-IstanbulGeziPlanim is a web application designed to help users discover must-see places in Istanbul. It provides an interactive guide that allows users to gather information, create personalized routes, and organize travel lists with ease.
+Istanbul Gezi Planim is a web application designed to help users discover must-see places in Istanbul. It provides an interactive guide that allows users to gather information, create personalized routes, and organize travel lists with ease.
 
 ## Key Features ✨
 
